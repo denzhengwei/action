@@ -38,7 +38,7 @@ jobs:
       - name: '运行 【crazyJoy挂机】'
         run: |
           cd ~/jd_scripts
-          node jd_crazy_joy.js
+          node jd_crazy_joy_coin.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
