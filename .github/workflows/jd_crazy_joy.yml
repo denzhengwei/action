@@ -35,7 +35,7 @@ jobs:
         run: |
           cd ~/jd_scripts
           npm install
-      - name: '运行 【crazyJoy任务】'
+      - name: '运行 【crazyJoy任务1】'
         run: |
           cd ~/jd_scripts
           node jd_crazy_joy.js
